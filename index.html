@@ -1,0 +1,868 @@
+<!doctype html>
+<html class="no-js " lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>::  Hospital :: Home</title>
+    <link rel="icon" href="favicon.ico">
+    <!-- start linking -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/aos/aos.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<div id="loading" class="page-loader-wrapper">
+    <div class="loader">
+        <div class="m-t-30"><img class="zmdi-hc-spin" src="assets/images/loader.svg" width="48" height="48" alt="Oreo"></div>
+        <p>Please wait...</p>        
+    </div>
+</div>
+
+<div class="wrapper">
+    <!-- start loading -->    
+    <div class="main_header">
+        <section id="top-nav">
+            <div class="container">
+                <div class="top">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7">
+                            <div class="left">
+                                <ul class="list-unstyled m-b-0">
+                                    <li><a href="" class="btn btn-link"><i class="zmdi zmdi-email m-r-5"></i>info@example.com</a>
+                                        <a href="" class="btn btn-link"><i class="zmdi zmdi-phone m-r-5"></i>+
+                                            (713) 429-5325</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-5">
+                            <div class="text-right d-none d-md-block">
+                                <ul class="list-unstyled m-b-0">
+                                    <li><a href="#" class="btn btn-link">Sign in</a> <a href="#" class="btn btn-link">sign
+                                        up</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <header id="header">
+            <div class="container">
+                <div class="head">
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-5">
+                            <div class="left">
+                                <a href="index.html" class="navbar-brand"><img src="assets/images/favicon.png" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-sm-7">
+                            <div class="text-right d-none d-md-block">
+                                <p class="col-white m-b-0 p-t-5"><i class="zmdi zmdi-time"></i> Mon - Sat: 9:00 - 18:00
+                                    Sunday CLOSED </p>
+                                <p class="col-white m-b-0"><i class="zmdi zmdi-pin"></i> 104 Whispering Pines Ave Friendswood, TX 77546</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="navbar" data-aos="fade-down">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+                            data-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation"><span
+                            class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul class="navbar-nav mr-auto">
+                            <!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li> -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="pageMenuLink"
+                                   data-toggle="dropdown" aria-haspopup="true"
+                                   aria-expanded="false">Services</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="about.html">Psychiatry</a>
+                                    <a class="dropdown-item" href="faq.html">Therapy</a>
+                                    <a class="dropdown-item" href="galary.html">TMS</a>
+                                    <a class="dropdown-item" href="price-list.html">Psychological Testing</a>
+                                    <a class="dropdown-item" href="price-list.html">Ketamine</a>
+                                    <a class="dropdown-item" href="price-list.html">Customised Services</a>
+                                </div>
+                            </li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="departments.html">Departments</a></li> -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="pageMenuLink"
+                                   data-toggle="dropdown" aria-haspopup="true"
+                                   aria-expanded="false">Care Team</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="about.html">Psychiatrist</a>
+                                    <a class="dropdown-item" href="faq.html">Therapist</a>
+                                    <!-- <a class="dropdown-item" href="galary.html">TMS</a> -->
+                                    <a class="dropdown-item" href="price-list.html">Psychologist</a>
+                                    <!-- <a class="dropdown-item" href="price-list.html">Ketamine</a>
+                                    <a class="dropdown-item" href="price-list.html">Customised Services</a> -->
+                                </div>
+                            </li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li> -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="pageMenuLink"
+                                   data-toggle="dropdown" aria-haspopup="true"
+                                   aria-expanded="false">For Clients</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="about.html">Insurance Partners</a>
+                                    <a class="dropdown-item" href="faq.html">Patient Portal</a>
+                                    <a class="dropdown-item" href="galary.html">Paper Intake</a>
+                                    <a class="dropdown-item" href="price-list.html">Blog</a>
+                                    <a class="dropdown-item" href="price-list.html">FAQ's</a>
+                                    <a class="dropdown-item" href="price-list.html">Pay My Bill</a>
+                                    <a class="dropdown-item" href="price-list.html">Refer a Client</a>
+                                </div>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="pageMenuLink"
+                                   data-toggle="dropdown" aria-haspopup="true"
+                                   aria-expanded="false">Blog</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="blog.html">Blog</a>
+                                    <a class="dropdown-item" href="blog-detail.html">Blog Detail</a>
+                                </div>
+                            </li> -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="pageMenuLink"
+                                   data-toggle="dropdown" aria-haspopup="true"
+                                   aria-expanded="false">Locations</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="about.html">Friendswood</a>
+                                    <a class="dropdown-item" href="faq.html">Pearland</a>
+                                    <a class="dropdown-item" href="galary.html">Pasadena</a>
+                                    <a class="dropdown-item" href="price-list.html">Medical Center</a>
+                                    <a class="dropdown-item" href="price-list.html">Sugar Land</a>
+                                    <a class="dropdown-item" href="price-list.html">Aurora</a>
+                                </div>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="pageMenuLink"
+                                   data-toggle="dropdown" aria-haspopup="true"
+                                   aria-expanded="false">Pages</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="about.html">About Us</a>
+                                    <a class="dropdown-item" href="faq.html">FAQs</a>
+                                    <a class="dropdown-item" href="galary.html">Galary</a>
+                                    <a class="dropdown-item" href="price-list.html">Price list</a>
+                                </div>
+                            </li> -->
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item d-md-none d-lg-none d-xl-none"><a class="nav-link" href="javascript:void(0);">Sign in</a></li>
+                            <li class="nav-item d-md-none d-lg-none d-xl-none"><a class="nav-link" href="javascript:void(0);">Sign up</a></li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0 d-none d-lg-inline-block">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- start hero -->
+    <section id="hero">
+        <div class="slider" style="background-image:url(assets/images/slider1.jpg)">
+            <div class="container">
+                <div class="slider_text">
+                    <h3 class="title"><span>Welcome to</span> <br>
+                        Interventional Psychiratry <br> Health Hospital</h3>
+                    <p class="sub-title">Interventional Psychiratry offers simple and comprehensive health care .</p><br>
+                    <button class="btn btn-primary btn-round">Book Appointment</button>
+                </div>
+                <div class="slider_form row">
+                    <p class="col-12">Make an Appointment</p>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="form-group">
+                            <input type="text" value="" placeholder="Enter Name" class="form-control m-b-15">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-6">
+                        <div class="form-group">
+                            <input type="text" value="" placeholder="Enter Mobile" class="form-control m-b-15">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-6">
+                        <div class="form-group">
+                            <input type="text" value="" placeholder="Enter Date" class="form-control m-b-15">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-6">
+                        <select class="form-control m-b-15">
+                            <option selected="selected">Select Doctor</option>
+                            <option>Marc Parcival</option>
+                            <option>Alen Bailey</option>
+                            <option>Basil Andrew</option>
+                            <option>Giles Franklin</option>
+                            <option>Edgar Denzil</option>
+                            <option>Garfield Feris</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-6">
+                        <select class="form-control">
+                            <option selected="selected">Select Department</option>
+                            <option>Cardiology</option>
+                            <option>Pulmonology</option>
+                            <option>Gynecology</option>
+                            <option>Neurology</option>
+                            <option>Urology</option>
+                            <option>Gastrology</option>
+                            <option>Pediatrician</option>
+                            <option>Laboratory</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <button class="btn btn-primary btn-round btn-block m-t-0 m-b-0">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Area -->
+    <section class="main-section">
+
+        <!-- Home About Us Section -->
+        <div class="about-us-section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title col-12" data-aos="fade-up">
+                        <h2><span>Quality Care
+                            from  </span></h2>
+                        <p> <b>Quality Experts</b> </p>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="box-img box-shadow" data-aos="fade-up">
+                            <img src="assets/images/about-img.jpg" alt="">
+                            <!-- <span class="section-line" data-aos="fade-up"></span> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-sm-8">
+                        <div class="common-cnt" data-aos="fade-up">
+                            <div class="section-top">
+                                <p><strong>Interventional Psychiratry
+                                    Health Hospital</strong> </p>
+                            </div>
+                            
+                             <p style="margin-top: -4%;">Is client-centric. We support our clients throughout their healthcare journey with our qualified care team. We aim to match our clients with the best healthcare provider, understand their worries about the type of provider, and explain their insurance benefits. Let us help in any way you need</p> 
+                            <p>
+                                <a class="btn btn-primary btn-simple btn-round margin-0" data-aos="flip-up"><b> Our Providers </b> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home About Us Section -->
+
+        <!-- Home About Us Section -->
+        <div class="our-best-service xl-slategray section-65-100">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title col-12" data-aos="fade-up">
+                        <h2><span>Services for the Mind </span> </h2>
+                        <p><b>What We Treat </b> </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="service-icon"><img src="assets/images/icon-cardio-monitoring.png" alt="Cardio Monitoring"></div>
+                            <div class="service-cnt">
+                                <div class="service-name">ADHD</div>
+                                <div class="service-dep">
+                                    <p>ADHD (attention deficit hyperactivity disorder) is a mental health condition.</p>
+                                    <a href="javascript:void(0);">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="service-icon"><img src="assets/images/icon-orthodontics.png" alt="Orthodontics">
+                            </div>
+                            <div class="service-cnt">
+                                <div class="service-name">Anxiety</div>
+                                <div class="service-dep">
+                                    <p>Anxiety disorders are conditions in which you experience persistent anxiety that might worsen over time.</p>
+                                    <a href="javascript:void(0);">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box" data-aos="fade-up"  data-aos-duration="3000">
+                            <div class="service-icon"><img src="assets/images/icon-traumatology.png" alt="Traumatology">
+                            </div>
+                            <div class="service-cnt">
+                                <div class="service-name">Depression</div>
+                                <div class="service-dep">
+                                    <p>Depression is a serious mental condition that can have a significant impact on one’s life.</p>
+                                    <a href="javascript:void(0);">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="service-icon"><img src="assets/images/icon-cardiology.png" alt="Cardiology">
+                            </div>
+                            <div class="service-cnt">
+                                <div class="service-name">PTSD</div>
+                                <div class="service-dep">
+                                    <p>Post-traumatic stress disorder (PTSD) is a disorder that affects certain people after they have been through a traumatic, frightening, or hazardous incident.</p>
+                                    <a href="javascript:void(0);">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="service-icon"><img src="assets/images/icon-prostheses.png" alt="Prostheses">
+                            </div>
+                            <div class="service-cnt">
+                                <div class="service-name">Insomnia</div>
+                                <div class="service-dep">
+                                    <p>Insomniacs have trouble falling asleep, staying asleep, or getting enough restful sleep.</p>
+                                    <a href="javascript:void(0);">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-4 col-sm-6">
+                        <div class="service-box" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="service-icon"><img src="assets/images/icon-pulmonary.png" alt="Pulmonary"></div>
+                            <div class="service-cnt">
+                                <div class="service-name">Pulmonary</div>
+                                <div class="service-dep">
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece[...]</p>
+                                    <a href="javascript:void(0);">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Home About Us Section -->
+        <div class="what-we-do">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title col-12" data-aos="fade-right">
+                        <h2><span>Treatment </span>What We Offer</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="what-we-box" data-aos="fade-right" data-aos-duration="5000">
+                            <i class="zmdi zmdi-account-add"></i>
+                            <h6>Psycho Therapy</h6>
+                            <p>Psychotherapy is based on the premise that your thoughts, feelings, and actions are all interconnected, and that negative thoughts and feelings can imprison you in a vicious cycle. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="what-we-box" data-aos="fade-right" data-aos-duration="5000">
+                            <i class="zmdi zmdi-collection-add"></i>
+                            <h6>Ketamine </h6>
+                            <p>Advanced medical care making life easier for those suffering from treatment-resistant/significant depression or who are on the verge of self-harm and want a quick and easy way to receive help.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="what-we-box" data-aos="fade-right" data-aos-duration="5000">
+                            <i class="zmdi zmdi-hospital-alt"></i>
+                            <h6>Medication Management</h6>
+                            <p>Medication Management is an outpatient treatment that entails a professional’s initial assessment of the patient’s medication needs, issuing a prescription, and continuing medical monitoring of the patient’s medication use.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="what-we-box" data-aos="fade-right" data-aos-duration="5000">
+                            <i class="zmdi zmdi-thumb-up"></i>
+                            <h6>Psychological  Testing</h6>
+                            <p>Psychological testing, also known as psychometrics, is the systematic use of tests to evaluate psycho-physical behavior, skills, and concerns, and to develop psychological performance forecasts.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="what-we-box" data-aos="fade-right" data-aos-duration="5000">
+                            <i class="zmdi zmdi-shield-check"></i>
+                            <h6>Transcranial Magnetic Stimulation</h6>
+                            <p>Transcranial Magnetic Stimulation (TMS) is a safe, drug-free, and insurance-approved treatment for depression provided by One Behavioral. </p>
+                        </div>
+                        <!-- <div class="what-we-box" data-aos="fade-right" data-aos-duration="5000">
+                            <i class="zmdi zmdi-headset-mic"></i>
+                            <h6>24x7 Service</h6>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration</p>
+                        </div> -->
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <!-- <div class="what-we-box" data-aos="fade-right" data-aos-duration="5000">
+                            <i class="zmdi zmdi-shield-check"></i>
+                            <h6>Transcranial Magnetic Stimulation</h6>
+                            <p>Transcranial Magnetic Stimulation (TMS) is a safe, drug-free, and insurance-approved treatment for depression provided by One Behavioral. </p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home Fun Fact -->
+        <div class="fun-fact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="fun-fact-box text-center">
+                            <i class="zmdi zmdi-account"></i>
+                            <span class="counter timer" data-from="0" data-to="652" data-speed="2500"
+                                  data-fresh-interval="700">652</span>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="fun-fact-box text-center">
+                            <i class="zmdi zmdi-favorite"></i>
+                            <span class="counter timer" data-from="0" data-to="7652" data-speed="2500"
+                                  data-fresh-interval="700">7652</span>
+                            <p>Therapy</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="fun-fact-box text-center">
+                            <i class="zmdi zmdi-thumb-up"></i>
+                            <span class="counter timer" data-from="0" data-to="52" data-speed="2500"
+                                  data-fresh-interval="700">52</span>
+                            <p>Years Of Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="fun-fact-box text-center">
+                            <i class="zmdi zmdi-mood"></i>
+                            <span class="counter timer" data-from="0" data-to="7652" data-speed="2500"
+                                  data-fresh-interval="700">7652</span>
+                            <p>Well Smiley Faces</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Fun Fact -->
+        
+
+        <!-- Home Our Team -->
+        <div class="our-team">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="section-title left col-lg-4" data-aos="fade-up">
+                        <h2><span>Meet </span>Our Specialist Doctor</h2>
+                        <p></p>
+                    </div>
+                    <div class="section-title right col-lg-8" data-aos="fade-up">
+                        <p><span class="color-212121"></span> </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-box text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                            <div class="doctor-pic"><img src="assets/images/team-member-01.png" alt="Dr. John"></div>
+                            <div class="doctor-info">
+                                <h4>Dr. John <span>Psychiatrist</span></h4>
+                                <ul class="clearfix">
+                                    <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                                </ul>
+                                <a class="btn btn-simple btn-primary btn-round" href="javascript:void(0);">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-box text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="4000">
+                            <div class="doctor-pic"><img src="assets/images/team-member-02.png" alt="Dr. Amelia"></div>
+                            <div class="doctor-info">
+                                <h4>Dr. Amelia <span>Therapist</span></h4>
+                                <ul class="clearfix">
+                                    <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                                </ul>
+                                <a class="btn btn-simple btn-primary btn-round" href="javascript:void(0);">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-box text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                            <div class="doctor-pic"><img src="assets/images/team-member-03.png" alt="Dr. Jack"></div>
+                            <div class="doctor-info">
+                                <h4>Dr. Jack <span>Psychologist</span></h4>
+                                <ul class="clearfix">
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                </ul>
+                                <a class="btn btn-simple btn-primary btn-round" href="javascript:void(0);">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-box text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+                            <div class="doctor-pic"><img src="assets/images/team-member-04.png" alt="Dr. Charlie"></div>
+                            <div class="doctor-info">
+                                <h4>Dr. Charlie<span>Psychiatrist</span></h4>
+                                <ul class="clearfix">
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a></li>
+                                </ul>
+                                <a class="btn btn-simple btn-primary btn-round" href="javascript:void(0);">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Our Team -->
+
+        <div class="service-section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title col-12" data-aos="fade-right">
+                        <h2><span>Caring Hands </span></h2>
+                        <p> <b> Find Your Provider. </b> </p>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="service-cnt">
+                            <p>We accept responsibility for our offerings. Interventional Psychiratry approach is to find a method to collaborate with our clients in some way. We handle challenges on our own, collaborating with others as necessary. Our experts’ approach has made a difference in delivering healthcare across several sites.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <p>
+                                <a class="btn btn-primary btn-simple btn-round margin-0" data-aos="flip-up"><b> How It Works </b> </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="services-btn-grp">
+                            <div class="find-doctor service-btn float-left">
+                                <a href="#" class="text-center">
+                                    <i class="zmdi zmdi-account-add"></i>
+                                    <h4><span>Find Search</span>A Doctor</h4>
+                                </a>
+                            </div>
+                            <div class="book-appoitntment service-btn float-left">
+                                <a href="#" class="text-center">
+                                    <i class="zmdi zmdi-phone"></i>
+                                    <h4><span>Book Appointment</span>+(713) 429-5325</h4>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home Why choose us -->
+        <div class="why-choose-us">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title col-12" data-aos="fade-up">
+                        <h2><span>Healthy</span> Does Not Mean Expensive</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="common-cnt">
+                            <div class="section-top" data-aos="fade-down">
+                                <!-- <p>Our goal is to make sure<br>
+                                    with advances in <br>
+                                    technology</p> -->
+                            </div>
+                            <p data-aos="fade-down" data-aos-duration="3000">A provider’s services have never been easier or more affordable. Our highly skilled specialists can provide you with quality care just by paying <strong> <b> $0 copay with select insurances or choose a plan as low as $49 per. </b>  </strong> Most major insurers in Texas are in-network with us and provide affordable care throughout Texas. We accept most Medicare and Medicaid plans. Don’t hesitate to ask more..</p>
+                            <p>
+                                <a class="btn btn-primary btn-round" data-aos="flip-up">View Insurance Partners</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="box-img" data-aos="fade-up" data-aos-duration="3000">
+                            <img src="assets/images/why-choose-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Why choose us -->
+        <div class="about-us-section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title col-12" data-aos="fade-right">
+                        <h2><span>How Do </span> We Work?</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="box-img box-shadow" data-aos="fade-up">
+                            <img src="assets/images/about-page-img.jpg" alt="">
+                            <!-- <span class="section-line" data-aos="fade-right"></span> -->
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-6">
+                        <div class="page-text">
+                            <div class="section-top" data-aos="fade-up" data-aos-duration="4000">
+                                <p><strong></strong>
+                                    </p>
+                            </div>
+                            <p data-aos="fade-up" data-aos-duration="4000"></p>
+                            <div class="mission-vision" data-aos="fade-up" data-aos-duration="4000">
+                                <div class="grp-area mission">
+                                    <i class="zmdi zmdi-favorite"></i>
+                                    <h5>Make an Appointment</h5>
+                                    <p>Schedule your appointment and select your desired care counselor.</p>
+                                </div>
+                                <div class="grp-area vision">
+                                    <i class="zmdi zmdi-eye"></i>
+                                    <h5>Comprehensive Evaluation</h5>
+                                    <p>Get a comprehensive behavioral evaluation from our certified professionals.</p>
+                                    <!-- <ul class="list-unstyled">
+                                        <li>
+                                            <i class="zmdi zmdi-thumb-up"></i>
+                                            <p>Idea of denouncing pleasure and praising.</p>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-thumb-up"></i>
+                                            <p>Pleasure and praising pain was complete system.</p>
+                                        </li>
+                                    </ul> -->
+                                </div>
+                                <div class="grp-area vision">
+                                    <i class="zmdi zmdi-eye"></i>
+                                    <h5>Start your Journey</h5>
+                                    <p>Start appropriate care and plant a seed with us.</p>
+                                    <!-- <ul class="list-unstyled">
+                                        <li>
+                                            <i class="zmdi zmdi-thumb-up"></i>
+                                            <p>Idea of denouncing pleasure and praising.</p>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-thumb-up"></i>
+                                            <p>Pleasure and praising pain was complete system.</p>
+                                        </li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                            <div class="opening-hours" data-aos="fade-up" data-aos-duration="4000">
+                                <h6><i class="zmdi zmdi-time"></i> Opening Hours</h6>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <label><i class="zmdi zmdi-chevron-right"></i> Saturday</label>
+                                        <span>9:00 - 20:00</span>
+                                    </li>
+                                    <li>
+                                        <label><i class="zmdi zmdi-chevron-right"></i> Sunday</label>
+                                        <span>9:00 - 20:00</span>
+                                    </li>
+                                    <li>
+                                        <label><i class="zmdi zmdi-chevron-right"></i> Monday - Friday</label>
+                                        <span>9:00 - 20:00</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home Support -->
+        <div class="support-home text-center xl-slategray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4>We provide 24/7 customer support.</h4>
+                        <p>Please feel free to contact us at (713) 429-5325 for emergency case.</p>
+                        <a class="btn btn-primary btn-simple btn-round" href="javascript:void(0);"><b>Call Now </b> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Support -->
+
+        <!-- Home Blog -->
+        <div class="home-blog">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title col-12" data-aos="fade-up">
+                        <h2><span>Latest </span>From Blog</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row" data-aos="flip-up">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-box">
+                            <div class="blog-img">
+                                <img src="assets/images/blog-1.png" alt="">
+                            </div>
+                            <div class="blog-cnt">
+                                <h5><a href="javascript:void(0);">How to handle your kids’ from Lorem ipsum dolor sit amet</a></h5>
+                                <p>The great explorer of the truth, master builder of human happiness one rejects,
+                                    dislikes[...]</p>
+                            </div>
+                            <div class="blog-info">
+                                <span class="blog-date"><i class="zmdi zmdi-calendar"></i> 02 Feb 2018</span>
+                                <span class="blog-comment"><i class="zmdi zmdi-comments"></i> Comment ( 25 )</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-box">
+                            <div class="blog-img">
+                                <img src="assets/images/blog-2.png" alt="">
+                            </div>
+                            <div class="blog-cnt">
+                                <h5><a href="javascript:void(0);">How to handle your kids’ from Lorem ipsum dolor sit amet</a></h5>
+                                <p>The great explorer of the truth, master builder of human happiness one rejects,
+                                    dislikes[...]</p>
+                            </div>
+                            <div class="blog-info">
+                                <span class="blog-date"><i class="zmdi zmdi-calendar"></i> 02 Feb 2018</span>
+                                <span class="blog-comment"><i class="zmdi zmdi-comments"></i> Comment ( 25 )</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <div class="blog-box">
+                            <div class="blog-img">
+                                <img src="assets/images/blog-3.png" alt="">
+                            </div>
+                            <div class="blog-cnt">
+                                <h5><a href="javascript:void(0);">How to handle your kids’ from Lorem ipsum dolor sit amet</a></h5>
+                                <p>The great explorer of the truth, master builder of human happiness one rejects,
+                                    dislikes[...]</p>
+                            </div>
+                            <div class="blog-info">
+                                <span class="blog-date"><i class="zmdi zmdi-calendar"></i> 02 Feb 2018</span>
+                                <span class="blog-comment"><i class="zmdi zmdi-comments"></i> Comment ( 25 )</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Blog -->
+
+    </section>
+
+    <!-- start footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="form-group m-b-0">
+                                    <input type="text" value="" placeholder="your name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="form-group m-b-0">
+                                    <input type="text" value="" placeholder="your email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <button class="btn btn-primary btn-round btn-block margin-0">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-4 col-md-12">
+                    <div class="fcard about">
+                        <h5 class="title">About Hospitals</h5>
+                        <p>Interventional Psychiratry is dedicated to offering the most comprehensive and accessible health treatment to those who are looking for a reliable and affordable way to live a happier and more productive life.</p>
+                        <!-- <p>A Health Care Provider of Western Approach, Hospitals is the most trusted multispecialty
+                            hospital.</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="fcard links">
+                        <h5 class="title">Usefull Links</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Consultants</a></li>
+                                    <li><a href="#">Working Hours</a></li>
+                                    <li><a href="#">Procedures</a></li>
+                                    <li><a href="#">Special Offers</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Healthy Foods</a></li>
+                                    <li><a href="#">Appointments</a></li>
+                                    <li><a href="#">Latest News</a></li>
+                                    <li><a href="#">Certificates</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="fcard contact links">
+                        <h5 class="title">Contact Details</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="zmdi zmdi-pin"></i>104 Whispering Ave Friendswood,TX 77546</li>
+                            <li><i class="zmdi zmdi-email"></i>interventionalpsychiratry@health.com</li>
+                            <li><i class="zmdi zmdi-phone"></i>+
+                                202-555-0191</li>
+                            <li><i class="zmdi zmdi-time"></i>Mon-Friday: 9am to 18pm</li>
+                            <li><i class="zmdi zmdi-time"></i>Sat-Sunday: 10am to 16pm</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <small>Copyright &copy; 2023 Westcoast <a href="#" target="_blank">Animations</a>
+                        </small>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <div class="up"><a href="#header"><i class="zmdi zmdi-caret-up-circle"></i></a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="social float-md-right"><a href=""><i class="zmdi zmdi-facebook m-r-10"></i></a> <a
+                                href=""><i class="zmdi zmdi-twitter m-r-10"></i></a> <a href=""><i
+                                class="zmdi zmdi-dribbble m-r-10"></i></a> <a href=""><i
+                                class="zmdi zmdi-behance m-r-10"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- start screpting -->
+<script src="assets/bundles/libscripts.bundle.js"></script>
+
+<script src="assets/js/app.js"></script><!-- my js -->
+<script src="assets/js/countto.js"></script>
+</body>
+</html>
